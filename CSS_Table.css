@@ -1,0 +1,23 @@
+/* Style the table */
+.custom-table {
+  width: 80%;                   /* Optional: table width */
+  border-collapse: collapse;    /* Merge borders nicely */
+  background-color: #f2f2f2;   /* Table background color */
+  color: #2c3e50;               /* Font color */
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+/* Style table headers and cells */
+.custom-table th,
+.custom-table td {
+  border: 2px solid #34495e;   /* Table border */
+  padding: 10px;                /* Padding inside cells */
+}
+
+/* Hover effect for table rows */
+.custom-table tr:hover {
+  background-color: #dcdde1;   /* Row background on hover */
+  cursor: pointer;              /* Optional: pointer cursor on hover */
+}
+<link rel="stylesheet" type="text/css" href="CSS_Table.css">
