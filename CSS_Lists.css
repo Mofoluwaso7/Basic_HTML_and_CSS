@@ -1,0 +1,12 @@
+/* Change the list-style-type of an ordered list (<ol>) */
+ol.custom-ordered {
+  list-style-type: upper-roman; /* Numbers displayed as I, II, III... */
+  padding-left: 20px;           /* Optional: indentation */
+}
+
+/* Change the list-style-type of an unordered list (<ul>) */
+ul.custom-unordered {
+  list-style-type: square;       /* Bullets displayed as squares */
+  padding-left: 20px;            /* Optional: indentation */
+}
+<link rel="stylesheet" type="text/css" href="CSS_Lists.css">
