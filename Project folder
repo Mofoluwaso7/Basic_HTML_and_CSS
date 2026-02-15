@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Menu</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Menu container */
+nav{
+    background-color: rgb(30, 30, 30);
+}
+
+/* Remove list style */
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Menu items */
+nav ul li{
+    position: relative;
+}
+
+/* Links */
+nav ul li a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+/* Hover effect */
+nav ul li a:hover{
+    background-color: rgb(0,120,215);
+}
+
+/* Dropdown menu */
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(50,50,50);
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    min-width: 180px;
+}
+
+/* Dropdown items */
+nav ul li ul li a{
+    padding: 12px;
+}
+
+/* Show dropdown on hover */
+nav ul li:hover ul{
+    display: block;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+
+    <li>
+        <a href="#">Services</a>
+        <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">Hosting</a></li>
+        </ul>
+    </li>
+
+    <li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+</body>
+</html>
